@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap');
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+body{
+    font-family: var(--sm-font);
+}
+
+/* --lg-font is custom property (which is not in css), this is property of fonts google*/
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0,0,0,0.05);
+}
+
+#header{
+    background: url(../images/jisoobg-11.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-bg{
+    width: 100vh;
+}
+
+.text-hover-bg{
+    padding-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container:hover{
+    background-color: #efdef3; /* Green */
+    color: white;
+}
+
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn{
+    border-color: #fff!important;
+}
+
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+
+/* add this red line before h2 */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-surr{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    border-color: #f7e6e6e6;
+    border-style: groove;
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
