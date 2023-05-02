@@ -8,8 +8,14 @@
                 include "../page/home.php";
                 break;
             case "product":
-                // echo file_get_contents("../page/collection.php");
-                include "../page/product.php";
+                if(isset($_GET['product_page']))
+                {
+                    $page = $_GET['product_page'];
+                    $url = "../page/product.php?page=$page";
+                    header("Location: $url");
+                    exit;
+                }
+                else header("Location: ../page/product.php");;
                 break;
             case "special":
                 include "../page/product.php";

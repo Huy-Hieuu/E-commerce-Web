@@ -39,8 +39,6 @@
             else{
                 $newImageName = uniqid() . '.' . $imageExtension;
 
-                // move_uploaded_file($file_tmp,'img/'.$newImageName);
-
                 $image = file_get_contents($file_tmp);
             }
 
@@ -49,44 +47,14 @@
             $stmt->execute();
             $stmt->close();
 
-            $result = $conn->query("select max(productID) from product");
-            $row = mysqli_fetch_array($result);
-            $new_productID = $row[0];
-            $newProductHTML = '
-                                <div class="col-sm-4">
-                                    <img src="http://localhost:8012/E-commerce-Web/page/display_product.php?productID=' . $new_productID . '" class="img-fluid">
-                                    <div class = "text-center">
-                                        <div class = "rating mt-3">
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                        </div>
-                                        <p class = "text-capitalize my-1">air jordan 1 low</p>
-                                        <span class = "fw-bold">$ 100.50</span>
-                                    </div>
-                                </div>';
-
-            // Step 2: Read the contents of the PHP file containing the HTML code for the existing products
-            $existingProductsHTML = file_get_contents('../layouts/product_section.php');
-
-            // Step 3: Append the HTML code for the new product to the existing HTML code
-            $modifiedHTML = str_replace('<div id="product_list" class="row mb-5">', '<div id="product_list" class="row mb-5">' . $newProductHTML, $existingProductsHTML);
-
-            // Step 4: Write the modified HTML code back to the original PHP file
-            file_put_contents('../layouts/product_section.php', $modifiedHTML);
         }
 
     }
     $conn -> close();
 
 ?>
-    <!-- navbar -->
-    <!-- this navbar will be vertical if screen size is < md -->
     <?php include '../layouts/head.php'; ?>
     <?php include '../layouts/nav.php'; ?>
-    <!-- end of navbar -->
 
     <section id="product" class="py-5">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data" class ="container" style="padding-top: 100px" >

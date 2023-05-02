@@ -2,8 +2,9 @@
 <nav class="d-flex navbar navbar-expand-md py-4 sticky-top navbar-light bg-white">
     <div class="container ">
         <a class="navbar-brand d-flex flex-row align-items-center order-lg-0 order-md-0" href="#">
-            <img src="/E-commerce-Web/images/nike.jpg" alt="jisoo" style="width:70px; height:50px">
-            <span class="text-uppercase fw-lighter ms-2">Nike</span>
+            <!-- <img src="/E-commerce-Web/images/nike.jpg" alt="jisoo" style="width:70px; height:50px"> -->
+            <i class="fab fa-node-js fa-2x"></i>
+            <span class="text-uppercase fw-lighter ms-2">JISOO</span>
         </a>
         <button class="navbar-toggler navbar-light " type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-expanded="false" aria-controls="navMenu">
             <span class="navbar-toggler-icon"></span>

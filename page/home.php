@@ -7,6 +7,9 @@
         include '../layouts/product_section.php';
         include '../layouts/footer.php';
     ?>
+    <!-- end of navbar -->
+
+
 
 </body>
 </html>
