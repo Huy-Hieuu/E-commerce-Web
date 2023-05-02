@@ -1,0 +1,12 @@
+
+@font-face {
+    /* font-family: 'Sogoe UI Historic';
+    src: url("../fonts/Segoe UI Historic.ttf"); */
+    font-family: 'IBM_Plex_Sans';
+    src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+}
+
+* {
+    font-family: 'IBM_Plex_Sans';
+}
+

@@ -1,34 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap');
-:root{
-    --lg-font: 'Kaisei Tokumin', serif;
-    --sm-font: 'Poppins', sans-serif;
-    --pink: #e5345b;
-}
+
+
 body{
-    font-family: var(--sm-font);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* background-color: black; */
 }
 
-/* --lg-font is custom property (which is not in css), this is property of fonts google*/
-.bg-primary{
-    background-color: var(--pink)!important;
+.drop_leftside{
+    left: 0;
+    /* right: 0; */
 }
 
 .navbar {
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+    /* background-color: red; */
 }
 
 .navbar-brand img{
-    width: 30px;
+    width: 100px;
 }
 
 .navbar-brand span{
     letter-spacing: 2px;
-    font-family: var(--lg-font);
 }
 
-.nav-link:hover{
-    color: var(--pink)!important;
-}
 
 .nav-item{
     border-bottom: 0.5px solid rgba(0,0,0,0.05);
@@ -59,16 +53,13 @@ body{
 
 .carousel-inner h1{
     font-size: 60px;
-    font-family: var(--lg-font);
+    /* font-family: var(--lg-font); */
 }
 
 .carousel-item .btn{
-    border-color: #fff!important;
+    /* border-color: #fff!important; */
 }
 
-.carousel-item .btn:hover{
-    border-color: var(--pink)!important;
-}
 
 /* add this red line before h2 */
 .title h2::before{
@@ -76,7 +67,7 @@ body{
     content: "";
     width: 4px;
     height: 50px;
-    background-color: var(--pink);
+    /* background-color: var(--pink); */
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
@@ -99,6 +90,7 @@ body{
     height: 46px;
     border-radius: 50%;
 }
+
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
