@@ -32,6 +32,9 @@
             case "register":
                 include "../page/register.php";
                 break;
+            case "location":
+                include "../page/location.php";
+                break;
             default:
                 break;
         }

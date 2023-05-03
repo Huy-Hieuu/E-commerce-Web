@@ -27,7 +27,7 @@
                     <a class="nav-link text-uppercase text-dark" href="../handler/index.php?page=about" id="nav-item5">about us</a>
                 </li>
                 <li class="nav-item px-2 py-2 border-0">
-                    <a class="nav-link text-uppercase text-dark" href="../handler/index.php?page=home" id="nav-item6">popular</a>
+                    <a class="nav-link text-uppercase text-dark" href="../handler/index.php?page=location" id="nav-item6">location</a>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,10 @@
                 </div>
             </ul>
         </div>
-        <div class="dropdown order-md-3">
+        <div class="order-lg-3 order-md-3 ms-3">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+        </div>
+        <div class="dropdown order-md-4">
             <i class="far fa-user-circle fa-2x ms-5" id="profile_dd" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-hidden="false"></i>
             <ul class="dropdown-menu" aria-labelledby="profile_dd">
                 <li class="d-block 1 px-5 py-2">

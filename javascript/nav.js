@@ -8,13 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     mySearch.addEventListener("keyup", (event) => {
         let searchVal = event.target.value.toLowerCase();
         showResult(searchVal);
-        // console.log(searchVal);
-        // let dropdownItems = document.querySelectorAll(".search-menu li");
-        // dropdownItems.forEach((item) => {
-        //     let text = item.textContent.toLowerCase();
-        //     let child = item.childNodes;
-        //     child.item(0).style.display = text.indexOf(searchVal) > -1 ? "block" : "none";
-        // });
     });
 });
 
@@ -31,7 +24,6 @@ function showResult(searchVal){
       if (this.readyState==4 && this.status==200) {
         data = this.responseText;
         console.log(data)
-        // returnElement = `<li class="d-block  px-5 py-2"><a class="dropdown-item" href="#">${data.}</a></li>`
         elementRes.innerHTML=this.responseText;
 
         elementRes.style.border="1px solid #A5ACB2";

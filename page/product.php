@@ -1,6 +1,3 @@
-
-    <!-- navbar -->
-    <!-- this navbar will be vertical if screen size is < md -->
     <?php
         include '../layouts/head.php';
         include '../layouts/nav.php';
@@ -87,10 +84,9 @@
                     </li>
                 </ul>
             </nav>
+            <script src="../javascript/product.js"></script>
     </section>
 
-
-    <script src="../javascript/product.js"></script>
 
     <?php
         include '../layouts/footer.php';

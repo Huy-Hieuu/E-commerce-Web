@@ -19,30 +19,30 @@
             <div id="product_list" class="row mb-5">
                                 <div class="col-sm-4">
                                     <img src="http://localhost:8012/E-commerce-Web/page/display_product.php?productID=17" class="img-fluid">
-                                    <div class = "text-center">
-                                        <div class = "rating mt-3">
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
+                                    <div class="text-center">
+                                        <div class="rating mt-3">
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
                                         </div>
-                                        <p class = "text-capitalize my-1">air jordan 1 low</p>
-                                        <span class = "fw-bold">$ 100.50</span>
+                                        <p class="text-capitalize my-1">air jordan 1 low</p>
+                                        <span class="fw-bold">$ 100.50</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <img src="http://localhost:8012/E-commerce-Web/page/display_product.php?productID=16" class="img-fluid">
-                                    <div class = "text-center">
-                                        <div class = "rating mt-3">
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
-                                            <span class = "text-danger"><i class = "fas fa-star"></i></span>
+                                    <div class="text-center">
+                                        <div class="rating mt-3">
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
+                                            <span class="text-danger"><i class="fas fa-star"></i></span>
                                         </div>
-                                        <p class = "text-capitalize my-1">air jordan 1 low</p>
-                                        <span class = "fw-bold">$ 100.50</span>
+                                        <p class="text-capitalize my-1">air jordan 1 low</p>
+                                        <span class="fw-bold">$ 100.50</span>
                                     </div>
                                 </div>
                     <div class="col-sm-4">
